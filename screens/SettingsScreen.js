@@ -4,7 +4,7 @@ import { SafeAreaView, View, Text, StyleSheet, StatusBar } from 'react-native'
 function SettingsScreen({navigation}){
   return (
     <SafeAreaView style={styles.block}>
-      <StatusBar backgroundColor="orange"></StatusBar>
+      <StatusBar backgroundColor="#a8c8ffff"></StatusBar>
       <View>
         <Text>설정</Text>
       </View>
